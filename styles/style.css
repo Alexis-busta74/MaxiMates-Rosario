@@ -206,13 +206,15 @@ ol {
     margin: 25px 0px 25px 0;
 }
 
-.links h4 {
+.links, h4 {
     font-family: 'Montserrat regular', sans-serif;
     color: #F2E6DC;
     text-transform: uppercase;
     margin-bottom: 25px;
     justify-content: center;
+    align-items: center;
 }
+
 
 .links ul li a {
     color: #F2E6DC;
@@ -252,18 +254,18 @@ ol {
     margin: 15px;
 }
 
-.gallery-container {
+.galeria-container {
     max-width: 800px;
     margin: 0 auto;
 }
 
-.photo-gallery {
+.fotos-galeria {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     grid-gap: 10px;
 }
 
-.photo-gallery img {
+.fotos-galeria img {
     width: 100%;
     height: auto;
     border-radius: 5px;
@@ -271,7 +273,7 @@ ol {
     transition: transform 0.3s ease-in-out;
 }
 
-.photo-gallery img:hover {
+.fotos-galeria img:hover {
     transform: scale(1.2);
 }
 
