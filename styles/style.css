@@ -277,7 +277,7 @@ ol {
     transform: scale(1.2);
 }
 
-@media (max-width: 800px)  {
+@media (max-width: 667px)  {
 
     header {
         height: auto;
