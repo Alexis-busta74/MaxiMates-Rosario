@@ -9,12 +9,12 @@
 }
 
 body {
-    background-color: #EEE8A9;
+    background-color: #F7F2CB;
     font-family: 'Montserrat', sans-serif;
 }
 
 header {
-    background-color: grey;
+    background-color:#B5B074;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -76,6 +76,7 @@ p.txt-nos{
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 3px; 
     margin: 0px 0px 10px;
+    padding: 0px 15px ;
 }
 
 ol {
@@ -96,7 +97,7 @@ ol {
 }
 
 .menu {
-    background-color: grey;
+    background-color: #B5B074;
 }
 
 
@@ -104,6 +105,7 @@ ol {
     width: 100%;
     height: 500px;
     border: 3px solid #000000;
+    object-fit: cover;
 }
 
 .lead {
@@ -121,9 +123,7 @@ ol {
     border: 3px solid #383900;
     border-radius: 0 0 5% 5%;
     margin: 20px;
-    text-align: center;
-    text-decoration: none;
-    list-style: none;
+    text-align: center; 
 }
 
 .cajas:hover { 
@@ -131,8 +131,6 @@ ol {
     padding:20px;
     background-color: #383900;
     color: #F6F2CB;
-    text-decoration: none;
-    list-style: none;
 }
 
 .p-cajas {
@@ -154,6 +152,7 @@ ol {
 .flex-conteiner {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .img-nos {
@@ -179,25 +178,7 @@ ol {
     margin: 10px;
 }
 
-.email {
-    width: 25rem;
-    margin: 20px;
-}
-
-.contraseña {
-    width: 25rem;
-    margin: 20px;
-}
-
-.mensajes {
-    margin: 15px;
-    font-family: 'Montserrat regular', sans-serif;
-    justify-content: center;
-    align-items: center;
-}
-
 .label-cont {
-    display: inline-block;
     margin: 10px;
 }
 
@@ -243,14 +224,15 @@ ol {
     width: 40px;
     border: 2px solid #F2E6DC;
     border-radius: 50%;
+    display: flex;
     justify-content: center;
-    align-content: center;
+    padding: 10px;
 }
 
 .caja-mates {
     width: 275px;
     height: 300px;
-    border: 3px solid #2F4858;
+    border: 3px solid #659B91;
     margin: 15px;
 }
 
