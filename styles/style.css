@@ -167,7 +167,11 @@ ol {
     color: #000000;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 4px;
-    
+}
+
+.formu-cont {
+    width: 500px;
+    justify-content: center;
 }
 
 .button-span {
@@ -283,8 +287,15 @@ ol {
         justify-content: center;
     }
 
-    .social img {
-        margin: 8px 0 0 0;
+    .social {
+        margin: 0 10px;
+        height: 40px;
+        width: 40px;
+        border: 2px solid #F2E6DC;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
     }
 
     .img-nos {
