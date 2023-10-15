@@ -168,11 +168,6 @@ ol {
     letter-spacing: 4px;
 }
 
-.formu-cont {
-    width: 500px;
-    justify-content: center;
-}
-
 .button-span {
     background-color: #000000;
     padding: 16px 24px;
@@ -317,12 +312,6 @@ ol {
 
     .links h4 {
         margin-left: 50px;
-    }
-
-    
-    .formu-cont {
-        width: 500px;
-        justify-content: center;
     }
 
     .footer {
