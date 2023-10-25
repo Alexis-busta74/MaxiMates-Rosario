@@ -1,6 +1,6 @@
 header {
     /*Estilo de Cabecera*/
-    background-color:#B5B074;
+    background-color: $color-secundario;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -10,11 +10,11 @@ header {
 body {
     /*Estilo del cuerpo del sitio*/
 
-     background-color: #F7F2CB;
+     background-color: $color-primario;
      font-family: 'Montserrat', sans-serif;
 
      .menu {
-        background-color: #B5B074;
+        background-color: $color-secundario;
     }
 
     .logo {
