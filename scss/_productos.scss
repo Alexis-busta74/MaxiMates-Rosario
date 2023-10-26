@@ -10,8 +10,8 @@ header {
 body {
     /*Estilo del cuerpo del sitio*/
 
-     background-color: #F7F2CB;
-     font-family: 'Montserrat', sans-serif;
+     background-color: $color-primario;
+     font-family: $fuente-principal;
 
      .menu {
         background-color: $color-secundario;
@@ -92,7 +92,7 @@ footer {
     }
 
     .links, h4 {
-        font-family: 'Montserrat regular', sans-serif;
+        font-family: $fuente-principal;
         color: #F2E6DC;
         text-transform: uppercase;
         margin-bottom: 25px;

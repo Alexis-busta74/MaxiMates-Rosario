@@ -11,7 +11,7 @@ body {
     /*Estilo del cuerpo del sitio*/
 
      background-color: $color-primario;
-     font-family: 'Montserrat', sans-serif;
+     font-family: $fuente-principal;
 
      .menu {
         background-color: $color-secundario;
