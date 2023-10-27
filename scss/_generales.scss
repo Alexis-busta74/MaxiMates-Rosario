@@ -1,0 +1,40 @@
+body {
+    /*Estilo del cuerpo del sitio*/
+     background-color: $color-primario;
+     font-family: $fuente-principal;
+
+     .menu {
+        background-color: $color-secundario;
+    }
+
+    .logo {
+        width: 170px;
+        height: 150px;
+        border: 4px solid #000000;
+        margin: 15px;
+    }
+
+    ul li {
+        display: inline-block;
+        margin: 10px;
+    }
+    
+    a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    
+    .a {
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .a:hover { /*Todos los elementos <a> cuando el mouse esté posicionado sobre ellos*/
+        font-weight: bold;
+        padding:20px;
+        background-color: #C3FCF1;
+        color: #000000;
+    }
+
+}
