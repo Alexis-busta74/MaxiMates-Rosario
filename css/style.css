@@ -65,13 +65,6 @@ main .flex-conteiner {
   flex-wrap: wrap;
   justify-content: center;
 }
-main .cajas {
-  width: 500px;
-  border: 3px solid #383900;
-  border-radius: 0 0 5% 5%;
-  margin: 20px;
-  text-align: center;
-}
 main .cajas:hover {
   font-weight: bold;
   padding: 20px;
@@ -220,7 +213,7 @@ main h1 {
   margin: 10px 0px 20px 0px;
 }
 main p.txt-nos {
-  color: #222722;
+  color: #222222;
   font-family: Georgia, "Times New Roman", Times, serif;
   letter-spacing: 3px;
   margin: 0px 0px 10px;

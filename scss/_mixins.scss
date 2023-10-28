@@ -1,0 +1,12 @@
+@mixin cajas ($width) {
+    width: $width;
+    border: 3px solid #383900;
+    border-radius: 0 0 5% 5%;
+    margin: 20px;
+    text-align: center; 
+}
+
+.cajas {
+    @include cajas (500px)
+}
+   

@@ -24,13 +24,6 @@ main {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .cajas {
-        width: 500px;
-        border: 3px solid #383900;
-        border-radius: 0 0 5% 5%;
-        margin: 20px;
-        text-align: center; 
-    }
     
     .cajas:hover { 
         font-weight: bold;
