@@ -95,6 +95,7 @@ main .p-cajas {
   font-family: Georgia, "Times New Roman", Times, serif;
   letter-spacing: 3px;
   margin: 0px 0px 10px;
+  padding: 10px;
 }
 
 footer {
@@ -265,7 +266,7 @@ main .img-nos {
   height: 300px;
   display: flex;
   flex-wrap: wrap;
-  margin: 20px 0px 20px 680px;
+  margin: 20px 0px 20px 80px;
 }
 
 footer {
@@ -352,10 +353,11 @@ footer .fotos-galeria img:hover {
     width: 300px;
     height: 300px;
     margin: 20px;
+    margin: 20px 0px 20px 60px;
     border: 2px solid #000000;
   }
   .caja-mates {
-    width: 275px;
+    width: 290px;
     height: 300px;
     flex-direction: column;
     text-align: center;

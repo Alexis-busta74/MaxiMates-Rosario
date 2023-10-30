@@ -500,7 +500,7 @@ main h1 {
 main h2 {
   font-family: "Montserrat regular", sans-serif;
   margin: 10px 0px 20px 0px;
-  padding: 10px;
+  padding: 15px;
 }
 main p {
   color: #222722;
@@ -515,9 +515,6 @@ main ol {
   margin: 10px;
   text-decoration: none;
   list-style: none;
-}
-main .ayuda {
-  padding: 10px;
 }
 
 footer {
@@ -633,7 +630,7 @@ main .flex-conteiner {
   justify-content: center;
 }
 main .caja-mates {
-  width: 275px;
+  width: 285px;
   height: 300px;
   border: 3px solid #659B91;
   margin: 15px;
@@ -647,7 +644,7 @@ main p.p-cajas {
   font-family: Georgia, "Times New Roman", Times, serif;
   margin: 0px 0px 10px;
   letter-spacing: 3px;
-  padding-left: 10px;
+  padding: 10px;
 }
 
 footer {
