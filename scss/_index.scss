@@ -27,12 +27,13 @@ main {
     
     .cajas:hover { 
         font-weight: bold;
-        padding:20px;
+        transform: scale;
         background-color: #383900;
         color: #F6F2CB;
     }
 
     .img {
+        object-fit: cover; 
         width: 100%;
         height: 220px;
     }

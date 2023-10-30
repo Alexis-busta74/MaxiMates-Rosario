@@ -1,4 +1,12 @@
 @charset "UTF-8";
+.cajas {
+  width: 500px;
+  border: 3px solid #383900;
+  border-radius: 0 0 5% 5%;
+  margin: 20px;
+  text-align: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -36,7 +44,7 @@ body .a {
 }
 body .a:hover { /*Todos los elementos <a> cuando el mouse esté posicionado sobre ellos*/
   font-weight: bold;
-  padding: 20px;
+  transform: scale;
   background-color: #C3FCF1;
   color: #000000;
 }
@@ -67,11 +75,12 @@ main .flex-conteiner {
 }
 main .cajas:hover {
   font-weight: bold;
-  padding: 20px;
+  transform: scale;
   background-color: #383900;
   color: #F6F2CB;
 }
 main .img {
+  object-fit: cover;
   width: 100%;
   height: 220px;
 }
@@ -360,6 +369,14 @@ main .tetx-cont {
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 4px;
 }
+main form {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
 main .button-span {
   background-color: #000000;
   padding: 16px 24px;
@@ -487,9 +504,10 @@ main h1 {
   font-family: "Montserrat regular", sans-serif;
   margin: 10px 0px 20px 0px;
 }
-main h2 {
+main #tetx-ayuda {
   font-family: "Montserrat regular", sans-serif;
   margin: 10px 0px 20px 0px;
+  padding: 15px;
 }
 main p {
   color: #222722;

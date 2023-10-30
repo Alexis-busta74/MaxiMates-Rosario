@@ -32,7 +32,7 @@ body {
     
     .a:hover { /*Todos los elementos <a> cuando el mouse esté posicionado sobre ellos*/
         font-weight: bold;
-        padding:20px;
+        transform: scale;
         background-color: #C3FCF1;
         color: #000000;
     }
