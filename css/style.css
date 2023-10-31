@@ -334,6 +334,13 @@ main .tetx-cont {
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 4px;
 }
+main .custom-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
 main form {
   background-color: #000000;
   padding: 20px;
@@ -354,7 +361,7 @@ main .label-cont {
 }
 main .map {
   filter: grayscale(100%) invert(92%) contrast(93%);
-  margin: 25px 0px 25px 0;
+  margin: 25px 0px 25px 0px;
 }
 
 footer {
