@@ -1,12 +1,3 @@
-header {
-    /*Estilo de Cabecera*/
-    background-color: $color-secundario;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
 main {
     .portada {
         width: 100%;
@@ -36,6 +27,7 @@ main {
         object-fit: cover; 
         width: 100%;
         height: 220px;
+        object-fit: cover;
     }
 
     .productos {

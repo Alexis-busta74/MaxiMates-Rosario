@@ -17,11 +17,45 @@
 
 header {
   /*Estilo de Cabecera*/
-  background-color: #B5B074;
+  background-color: #121128;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+
+body {
+  /*Estilo del cuerpo del sitio*/
+  background-color: #F7F2CB;
+  font-family: "Montserrat regular", sans-serif;
+}
+body .menu {
+  background-color: #B5B074;
+}
+body .logo {
+  width: 170px;
+  height: 150px;
+  border: 4px solid #000000;
+  margin: 15px;
+}
+body ul li {
+  display: inline-block;
+  margin: 10px;
+}
+body a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+body .a {
+  text-decoration: none;
+  list-style: none;
+}
+body .a:hover { /*Todos los elementos <a> cuando el mouse esté posicionado sobre ellos*/
+  font-weight: bold;
+  transform: scale(1.2); /* Escala un 20% más grande en ambas dimensiones */
+  background-color: #C3FCF1;
+  color: #000000;
 }
 
 main .portada {
@@ -49,6 +83,7 @@ main .img {
   object-fit: cover;
   width: 100%;
   height: 220px;
+  object-fit: cover;
 }
 main .productos {
   color: #8e8b51;
@@ -173,15 +208,6 @@ footer .fotos-galeria img:hover {
     text-align: center;
   }
 }
-header {
-  /*Estilo de Cabecera*/
-  background-color: #B5B074;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
 main h1 {
   text-align: center;
   font-family: "Montserrat regular", sans-serif;
@@ -305,15 +331,6 @@ footer .fotos-galeria img:hover {
     text-align: center;
   }
 }
-header {
-  /*Estilo de Cabecera*/
-  background-color: #B5B074;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
 main h1 {
   text-align: center;
   font-family: "Montserrat regular", sans-serif;
@@ -455,15 +472,6 @@ footer .fotos-galeria img:hover {
     text-align: center;
   }
 }
-header {
-  /*Estilo de Cabecera*/
-  background-color: #B5B074;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
 main h1 {
   text-align: center;
   font-family: "Montserrat regular", sans-serif;
@@ -587,15 +595,6 @@ footer .fotos-galeria img:hover {
     text-align: center;
   }
 }
-header {
-  /*Estilo de Cabecera*/
-  background-color: #B5B074;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
 main .flex-conteiner {
   display: flex;
   flex-wrap: wrap;
@@ -610,6 +609,7 @@ main .caja-mates {
 main .img {
   width: 100%;
   height: 220px;
+  object-fit: cover;
 }
 main p.p-cajas {
   color: #000000;
@@ -716,39 +716,6 @@ footer .fotos-galeria img:hover {
     flex-direction: column;
     text-align: center;
   }
-}
-body {
-  /*Estilo del cuerpo del sitio*/
-  background-color: #F7F2CB;
-  font-family: "Montserrat regular", sans-serif;
-}
-body .menu {
-  background-color: #B5B074;
-}
-body .logo {
-  width: 170px;
-  height: 150px;
-  border: 4px solid #000000;
-  margin: 15px;
-}
-body ul li {
-  display: inline-block;
-  margin: 10px;
-}
-body a {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 700;
-  color: #ffffff;
-}
-body .a {
-  text-decoration: none;
-  list-style: none;
-}
-body .a:hover { /*Todos los elementos <a> cuando el mouse esté posicionado sobre ellos*/
-  font-weight: bold;
-  transform: scale;
-  background-color: #C3FCF1;
-  color: #000000;
 }
 
 /*# sourceMappingURL=style.css.map */

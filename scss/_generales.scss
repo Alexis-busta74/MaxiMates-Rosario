@@ -1,3 +1,12 @@
+header {
+    /*Estilo de Cabecera*/
+    background-color: #121128;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 body {
     /*Estilo del cuerpo del sitio*/
      background-color: $color-primario;
@@ -30,11 +39,11 @@ body {
         list-style: none;
     }
     
-    .a:hover { /*Todos los elementos <a> cuando el mouse esté posicionado sobre ellos*/
+    .a:hover {  /*Todos los elementos <a> cuando el mouse esté posicionado sobre ellos*/
         font-weight: bold;
-        transform: scale;
+        transform: scale(1.2); /* Escala un 20% más grande en ambas dimensiones */
         background-color: #C3FCF1;
         color: #000000;
-    }
-
+      }
+      
 }
