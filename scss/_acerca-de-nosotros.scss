@@ -12,19 +12,21 @@ main {
         margin: 0px 0px 10px;
         padding: 0px 15px ;
     }
+
     .img-nos {
         width: 300px;
         height: 300px;
-        display: flex;
-        margin: 20px 0px 20px 60px;
+        display: block;
+        margin: 0px auto;
+        text-align: center;
+        padding: 20px;
     }
 }
-
 
 footer {
     /*Estilo del pie de pagina del sitio*/
     background-color: #000000;
-    padding: 100px 0px;
+    padding: 10px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -115,12 +117,13 @@ footer {
         padding: 10px;
     }
     .img-nos {
-        width: 300px;
-        height: 300px;
-        margin: 20px;
-        border: 2px solid #000000;
-    }
-
+        width: 150px;
+        height: 150px;
+        display: block;
+        margin: 0px auto;
+        text-align: center;
+        padding: 20px;
+      }
     .caja-mates {
         width: 275px;
         height: 300px;

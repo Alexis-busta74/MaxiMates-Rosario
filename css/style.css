@@ -103,7 +103,7 @@ main .p-cajas {
 footer {
   /*Estilo del pie de pagina del sitio*/
   background-color: #000000;
-  padding: 100px 0px;
+  padding: 10px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -223,14 +223,16 @@ main p.txt-nos {
 main .img-nos {
   width: 300px;
   height: 300px;
-  display: flex;
-  margin: 20px 0px 20px 60px;
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+  padding: 20px;
 }
 
 footer {
   /*Estilo del pie de pagina del sitio*/
   background-color: #000000;
-  padding: 100px 0px;
+  padding: 10px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -308,10 +310,12 @@ footer .fotos-galeria img:hover {
     padding: 10px;
   }
   .img-nos {
-    width: 300px;
-    height: 300px;
-    margin: 20px;
-    border: 2px solid #000000;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    padding: 20px;
   }
   .caja-mates {
     width: 275px;
@@ -345,6 +349,7 @@ main p {
   font-family: Georgia, "Times New Roman", Times, serif;
   letter-spacing: 3px;
   margin: 0px 0px 10px;
+  padding: 8px;
 }
 main .tetx-cont {
   color: #000000;
@@ -377,7 +382,7 @@ main .map {
 footer {
   /*Estilo del pie de pagina del sitio*/
   background-color: #000000;
-  padding: 100px 0px;
+  padding: 10px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -480,7 +485,6 @@ main h1 {
 main h2 {
   font-family: "Montserrat regular", sans-serif;
   margin: 10px 0px 20px 0px;
-  padding: 30px;
 }
 main p {
   color: #222722;
@@ -489,7 +493,7 @@ main p {
   margin: 0px 0px 10px;
 }
 main ol {
-  color: #2C3E50;
+  color: #222722;
   font-family: Georgia, "Times New Roman", Times, serif;
   letter-spacing: 3px;
   margin: 10px;
@@ -500,7 +504,7 @@ main ol {
 footer {
   /*Estilo del pie de pagina del sitio*/
   background-color: #000000;
-  padding: 100px 0px;
+  padding: 10px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -622,7 +626,7 @@ main p.p-cajas {
 footer {
   /*Estilo del pie de pagina del sitio*/
   background-color: #000000;
-  padding: 100px 0px;
+  padding: 10px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

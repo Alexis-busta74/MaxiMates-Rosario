@@ -9,7 +9,6 @@ main {
     h2 {
         font-family: $fuente-principal;
         margin: 10px 0px 20px 0px;
-        padding: 30px;
       }
     
     p {
@@ -19,7 +18,7 @@ main {
         margin: 0px 0px 10px;
     }
     ol {
-        color: #2C3E50;
+        color: #222722;
         font-family: Georgia, 'Times New Roman', Times, serif;
         letter-spacing: 3px;
         margin: 10px;
@@ -32,7 +31,7 @@ main {
 footer {
     /*Estilo del pie de pagina del sitio*/
     background-color: #000000;
-    padding: 100px 0px;
+    padding: 10px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

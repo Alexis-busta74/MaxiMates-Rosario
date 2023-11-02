@@ -66,7 +66,7 @@ main .flex-conteiner {
   justify-content: center;
 }
 main .cajas {
-  width: 500px;
+  width: 370px;
   border: 3px solid #383900;
   border-radius: 0 0 5% 5%;
   margin: 20px;
@@ -101,7 +101,7 @@ main .p-cajas {
 footer {
   /*Estilo del pie de pagina del sitio*/
   background-color: #000000;
-  padding: 100px 0px;
+  padding: 20px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -264,14 +264,16 @@ main p.txt-nos {
 main .img-nos {
   width: 300px;
   height: 300px;
-  display: flex;
-  margin: 20px 0px 20px 60px;
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+  padding: 20px;
 }
 
 footer {
   /*Estilo del pie de pagina del sitio*/
   background-color: #000000;
-  padding: 100px 0px;
+  padding: 20px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -349,10 +351,12 @@ footer .fotos-galeria img:hover {
     padding: 10px;
   }
   .img-nos {
-    width: 300px;
-    height: 300px;
-    margin: 20px;
-    border: 2px solid #000000;
+    width: 150px;
+    height: 1500px;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    padding: 20px;
   }
   .caja-mates {
     width: 290px;
@@ -454,7 +458,7 @@ main .map {
 footer {
   /*Estilo del pie de pagina del sitio*/
   background-color: #000000;
-  padding: 100px 0px;
+  padding: 20px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -619,7 +623,7 @@ main ol {
 footer {
   /*Estilo del pie de pagina del sitio*/
   background-color: #000000;
-  padding: 100px 0px;
+  padding: 20px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -783,7 +787,7 @@ main .p-cajas {
 footer {
   /*Estilo del pie de pagina del sitio*/
   background-color: #000000;
-  padding: 100px 0px;
+  padding: 20px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
