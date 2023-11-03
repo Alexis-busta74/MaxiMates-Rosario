@@ -1,15 +1,10 @@
 main {
     
-    h1 {
-        text-align: center;
+    h1, h2 {
+        text-align: center; 
         font-family: $fuente-principal;
         margin: 10px 0px 20px 0px;
-    }
-
-    h2 {
-        font-family: $fuente-principal;
-        margin: 10px 0px 20px 0px;
-      }
+    }    
     
     p {
         color: #222722;
@@ -17,14 +12,13 @@ main {
         letter-spacing: 3px; 
         margin: 0px 0px 10px;
     }
+    
     ol {
-        color: #222722;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        letter-spacing: 3px;
-        margin: 10px;
-        text-decoration: none;
-        list-style: none;
-    }
+            color: #222722;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            letter-spacing: 1px;
+            margin: 10px 0; /* Margen superior e inferior de 10px, margen izquierdo y derecho automático */
+        }
     
 }
 

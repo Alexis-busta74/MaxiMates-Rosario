@@ -17,7 +17,7 @@
 
 header {
   /*Estilo de Cabecera*/
-  background-color: #121128;
+  background-color: #B5B074;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -214,11 +214,12 @@ main h1 {
   margin: 10px 0px 20px 0px;
 }
 main p.txt-nos {
+  text-align: center; /* Centra el texto en el párrafo */
   color: #222222;
   font-family: Georgia, "Times New Roman", Times, serif;
-  letter-spacing: 3px;
-  margin: 0px 0px 10px;
-  padding: 0px 15px;
+  letter-spacing: 1px;
+  margin: 10px 0;
+  padding: 0 15px;
 }
 main .img-nos {
   width: 300px;
@@ -338,17 +339,17 @@ footer .fotos-galeria img:hover {
 main h1 {
   text-align: center;
   font-family: "Montserrat regular", sans-serif;
-  margin: 10px 0px 20px 0px;
+  margin: 10px 0 20px 0;
 }
 main h2 {
   font-family: "Montserrat regular", sans-serif;
-  margin: 10px 0px 20px 0px;
+  margin: 10px 0 20px 0;
 }
 main p {
   color: #222722;
   font-family: Georgia, "Times New Roman", Times, serif;
   letter-spacing: 3px;
-  margin: 0px 0px 10px;
+  margin: 0px;
   padding: 8px;
 }
 main .tetx-cont {
@@ -376,7 +377,7 @@ main .label-cont {
 }
 main .map {
   filter: grayscale(100%) invert(92%) contrast(93%);
-  margin: 25px 0px 25px 0px;
+  margin: 25px 0px;
 }
 
 footer {
@@ -477,12 +478,8 @@ footer .fotos-galeria img:hover {
     text-align: center;
   }
 }
-main h1 {
+main h1, main h2 {
   text-align: center;
-  font-family: "Montserrat regular", sans-serif;
-  margin: 10px 0px 20px 0px;
-}
-main h2 {
   font-family: "Montserrat regular", sans-serif;
   margin: 10px 0px 20px 0px;
 }
@@ -495,10 +492,8 @@ main p {
 main ol {
   color: #222722;
   font-family: Georgia, "Times New Roman", Times, serif;
-  letter-spacing: 3px;
-  margin: 10px;
-  text-decoration: none;
-  list-style: none;
+  letter-spacing: 1px;
+  margin: 10px 0; /* Margen superior e inferior de 10px, margen izquierdo y derecho automático */
 }
 
 footer {

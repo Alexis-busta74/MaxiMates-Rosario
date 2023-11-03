@@ -5,13 +5,15 @@ main {
         margin: 10px 0px 20px 0px;
     }
 
-    p.txt-nos{
+    p.txt-nos {
+        text-align: center; /* Centra el texto en el párrafo */
         color: #222222;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        letter-spacing: 3px; 
-        margin: 0px 0px 10px;
-        padding: 0px 15px ;
+        letter-spacing: 1px;
+        margin: 10px 0; 
+        padding: 0 15px; 
     }
+    
 
     .img-nos {
         width: 300px;
