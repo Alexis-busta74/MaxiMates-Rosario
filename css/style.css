@@ -106,7 +106,7 @@ footer {
   padding: 10px 0px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 footer .logo-2 {
   width: 150px;
@@ -198,12 +198,12 @@ footer .fotos-galeria img:hover {
     text-align: center;
   }
 }
-main h1 {
+.main-nos h1 {
   text-align: center;
   font-family: "Montserrat regular", sans-serif;
   margin: 10px 0px 20px 0px;
 }
-main p.txt-nos {
+.main-nos p.txt-nos {
   text-align: center; /* Centra el texto en el párrafo */
   color: #222222;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -211,7 +211,7 @@ main p.txt-nos {
   margin: 10px 0;
   padding: 0 15px;
 }
-main .img-nos {
+.main-nos .img-nos {
   width: 300px;
   height: 300px;
   display: block;
@@ -220,20 +220,20 @@ main .img-nos {
   padding: 20px;
 }
 
-footer {
+.foo-nos {
   /*Estilo del pie de pagina del sitio*/
   background-color: #000000;
   padding: 10px 0px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
-footer .logo-2 {
+.foo-nos .logo-2 {
   width: 150px;
   border: 2px solid #F2E6DC;
   margin: 15px;
 }
-footer .links, footer h4 {
+.foo-nos .links, .foo-nos h4 {
   font-family: "Montserrat regular", sans-serif;
   color: #F2E6DC;
   text-transform: uppercase;
@@ -241,12 +241,12 @@ footer .links, footer h4 {
   justify-content: center;
   align-items: center;
 }
-footer .socials {
+.foo-nos .socials {
   display: flex;
   flex-wrap: wrap;
   margin: 10px;
 }
-footer .social {
+.foo-nos .social {
   margin: 0 10px;
   height: 40px;
   width: 40px;
@@ -256,23 +256,23 @@ footer .social {
   justify-content: center;
   padding: 10px;
 }
-footer .galeria-container {
+.foo-nos .galeria-container {
   max-width: 800px;
   margin: 0 auto;
 }
-footer .fotos-galeria {
+.foo-nos .fotos-galeria {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   grid-gap: 10px;
 }
-footer .fotos-galeria img {
+.foo-nos .fotos-galeria img {
   width: 100%;
   height: auto;
   border-radius: 5px;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
 }
-footer .fotos-galeria img:hover {
+.foo-nos .fotos-galeria img:hover {
   transform: scale(1.2);
 }
 
@@ -376,7 +376,7 @@ footer {
   padding: 10px 0px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 footer .logo-2 {
   width: 150px;
@@ -468,38 +468,38 @@ footer .fotos-galeria img:hover {
     text-align: center;
   }
 }
-main h1, main h2 {
+.main-ayuda h1, .main-ayuda h2 {
   text-align: center;
   font-family: "Montserrat regular", sans-serif;
   margin: 10px 0px 20px 0px;
 }
-main p {
+.main-ayuda p {
   color: #222722;
   font-family: Georgia, "Times New Roman", Times, serif;
   letter-spacing: 3px;
   margin: 0px 0px 10px;
 }
-main ol {
+.main-ayuda ol {
   color: #222722;
   font-family: Georgia, "Times New Roman", Times, serif;
   letter-spacing: 1px;
   margin: 10px 0; /* Margen superior e inferior de 10px, margen izquierdo y derecho automático */
 }
 
-footer {
+.ayuda-footer {
   /*Estilo del pie de pagina del sitio*/
   background-color: #000000;
   padding: 10px 0px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
-footer .logo-2 {
+.ayuda-footer .logo-2 {
   width: 150px;
   border: 2px solid #F2E6DC;
   margin: 15px;
 }
-footer .links, footer h4 {
+.ayuda-footer .links, .ayuda-footer h4 {
   font-family: "Montserrat regular", sans-serif;
   color: #F2E6DC;
   text-transform: uppercase;
@@ -507,12 +507,12 @@ footer .links, footer h4 {
   justify-content: center;
   align-items: center;
 }
-footer .socials {
+.ayuda-footer .socials {
   display: flex;
   flex-wrap: wrap;
   margin: 10px;
 }
-footer .social {
+.ayuda-footer .social {
   margin: 0 10px;
   height: 40px;
   width: 40px;
@@ -522,23 +522,23 @@ footer .social {
   justify-content: center;
   padding: 10px;
 }
-footer .galeria-container {
+.ayuda-footer .galeria-container {
   max-width: 800px;
   margin: 0 auto;
 }
-footer .fotos-galeria {
+.ayuda-footer .fotos-galeria {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   grid-gap: 10px;
 }
-footer .fotos-galeria img {
+.ayuda-footer .fotos-galeria img {
   width: 100%;
   height: auto;
   border-radius: 5px;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
 }
-footer .fotos-galeria img:hover {
+.ayuda-footer .fotos-galeria img:hover {
   transform: scale(1.2);
 }
 
@@ -584,23 +584,23 @@ footer .fotos-galeria img:hover {
     text-align: center;
   }
 }
-main .flex-conteiner {
+.main-produc .flex-conteiner {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-main .caja-mates {
+.main-produc .caja-mates {
   width: 285px;
   height: 300px;
   border: 3px solid #659B91;
   margin: 15px;
 }
-main .img {
+.main-produc .img {
   width: 100%;
   height: 220px;
   object-fit: cover;
 }
-main p.p-cajas {
+.main-produc p.p-cajas {
   color: #000000;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin: 0px 0px 10px;
@@ -608,7 +608,7 @@ main p.p-cajas {
   padding: 10px;
 }
 
-footer {
+.produc-foo {
   /*Estilo del pie de pagina del sitio*/
   background-color: #000000;
   padding: 10px 0px;
@@ -616,12 +616,12 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-footer .logo-2 {
+.produc-foo .logo-2 {
   width: 150px;
   border: 2px solid #F2E6DC;
   margin: 15px;
 }
-footer .links, footer h4 {
+.produc-foo .links, .produc-foo h4 {
   font-family: "Montserrat regular", sans-serif;
   color: #F2E6DC;
   text-transform: uppercase;
@@ -629,12 +629,12 @@ footer .links, footer h4 {
   justify-content: center;
   align-items: center;
 }
-footer .socials {
+.produc-foo .socials {
   display: flex;
   flex-wrap: wrap;
   margin: 10px;
 }
-footer .social {
+.produc-foo .social {
   margin: 0 10px;
   height: 40px;
   width: 40px;
@@ -644,23 +644,23 @@ footer .social {
   justify-content: center;
   padding: 10px;
 }
-footer .galeria-container {
+.produc-foo .galeria-container {
   max-width: 800px;
   margin: 0 auto;
 }
-footer .fotos-galeria {
+.produc-foo .fotos-galeria {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   grid-gap: 10px;
 }
-footer .fotos-galeria img {
+.produc-foo .fotos-galeria img {
   width: 100%;
   height: auto;
   border-radius: 5px;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
 }
-footer .fotos-galeria img:hover {
+.produc-foo .fotos-galeria img:hover {
   transform: scale(1.2);
 }
 

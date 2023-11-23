@@ -1,4 +1,4 @@
-main {
+.main-nos {
     h1 {
         text-align: center;
         font-family: $fuente-principal;
@@ -25,13 +25,13 @@ main {
     }
 }
 
-footer {
+.foo-nos {
     /*Estilo del pie de pagina del sitio*/
     background-color: #000000;
     padding: 10px 0px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 
     .logo-2 {
         width: 150px;
